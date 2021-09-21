@@ -26,11 +26,6 @@ function draw()
   
 }
 
-function applyFilter()
-{
-  tint_color = document.getElementById('filter_color').value
-}
-
 function take_snapshot()
 {
   save("image.png")
